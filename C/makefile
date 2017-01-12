@@ -1,5 +1,5 @@
 main: hello.o hello
 hello.o: hello.c
-  gcc -c hello.c -o hello.o
+  CC -c hello.c -o hello.o
 hello: hello.o
-  gcc hello.o -o hello
+  CC hello.o -o hello
