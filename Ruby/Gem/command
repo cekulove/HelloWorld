@@ -1,0 +1,6 @@
+gem -v
+gem sources --add http://gems.ruby-china.org/
+gem sources --remove https://rubygems.org/
+gem sources -l
+
+gem install/uninstall GemName
