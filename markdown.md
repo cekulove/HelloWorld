@@ -1,4 +1,4 @@
-```flow
+```mermaid
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
