@@ -1,7 +1,7 @@
-main: hello.o hello
+all: hello.o hello
 hello.o: hello.c
 	cc -c hello.c -o hello.o
 hello: hello.o
 	cc hello.o -o hello
 clean:
-	rm hello.o
+	rm -rf hello hello.o
