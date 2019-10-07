@@ -1,9 +1,10 @@
 #!/bin/bash
-echo "#include<GL/glut>" > test.c
-cat test.c | grep "GL/glut"
+#cat HelloOpenGL.c | grep "GL/glut"
+#grep "GL/glut.h" HelloOpenGL.c > /dev/null
+cat HelloOpenGL.c | grep "GL/glut.h" > /dev/null
 if test $? -eq 0
 then
-    echo opengl
+	gcc HelloOpenGL.c -o HelloOpenGL -lGL -lGLU -lglut
 else
-    echo simply
+	gcc HelloOpenGL.c -o HelloOpenGL
 fi
