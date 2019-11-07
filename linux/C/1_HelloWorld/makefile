@@ -4,4 +4,4 @@ hello.o: hello.c
 hello: hello.o
 	cc hello.o -o hello
 clean:
-	rm -rf hello hello.o
+	rm -rf hello *.o
