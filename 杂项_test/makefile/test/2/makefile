@@ -1,6 +1,0 @@
-all:
-	@echo "MAKE_VERSION: $(MAKE_VERSION)"
-	@echo "CURDIR: $(CURDIR)"
-	@echo "MAKEFILE_LIST: $(MAKEFILE_LIST)"
-	@echo "MAKECMDGOALS: $(MAKECMDGOALS)"
-	@echo ".VARIABLES: $(.VARIABLES)"
